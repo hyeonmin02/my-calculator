@@ -39,5 +39,5 @@ public class Calculator {
     public List<Integer> getResults() {
         return results;
     }
-}
+} // s
 
