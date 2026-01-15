@@ -1,4 +1,5 @@
 package example2;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -23,7 +24,7 @@ public class Calculator {
 
         switch (c) {
             default: //잘못된 입력값
-                throw new DivideException( c +"는 지원하지 않는 연산자입니다.");
+                throw new DivideException(c + "는 지원하지 않는 연산자입니다.");
 
             case '+': // 더하기
                 result = a + b;
@@ -50,7 +51,7 @@ public class Calculator {
     }
 
 
-    }
+}
 
 
 
