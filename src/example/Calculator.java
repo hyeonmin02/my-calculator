@@ -15,7 +15,7 @@ public class Calculator {
                     System.out.print("첫번째 숫자를 입력하시오: ");
                     a = sc.nextInt();
                     if (a < 0) {
-                        System.out.println("양의 정수를 입력해주세요");
+                        System.out.println("양의 정수를 입력해주세요.");
                         continue;
                     }
 
@@ -30,7 +30,7 @@ public class Calculator {
                     System.out.print("두번째 숫자를 입력하시오: ");
                     b = sc.nextInt();
                     if (b < 0) {
-                        System.out.println("양의 정수를 입력해주세요");
+                        System.out.println("양의 정수를 입력해주세요.");
                         continue;
                     }
                     break;
